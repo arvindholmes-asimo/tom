@@ -1,19 +1,92 @@
-function switchOff() {
-    document.getElementById("bulbImage").src =
-      "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-off-img.png";
-    document.getElementById("catImage").src =
-      "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-eyes-img.png";
-    document.getElementById("switchStatus").textContent = "Switched Off";
-    document.getElementById("onSwitch").style.backgroundColor = "#22c55e";
-    document.getElementById("offSwitch").style.backgroundColor = "#cbd2d9";
-  }
-  
-  function switchOn() {
-    document.getElementById("bulbImage").src =
-      "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png";
-    document.getElementById("catImage").src =
-      "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png";
-    document.getElementById("switchStatus").textContent = "Switched On";
-    document.getElementById("offSwitch").style.backgroundColor = "#e12d39";
-    document.getElementById("onSwitch").style.backgroundColor = "#cbd2d9";
-  }
+
+// ex  1  Number() method converts a string into a number
+// let x = '100';
+// let num = Number(x);
+// console.log(num)
+// console.log(num*10)
+
+//  ex 1b r
+//  let x = true ;
+//  let num = Number (x)
+//  console.log(num)
+//  console.log(num * 9)
+
+
+// //  ex1c Number(value) method is used to convert string x to an integer and perform operations on the number value. Setting x totrue returns 1 and false returns 0.
+//  let x= false;
+//  let num = Number(x)
+
+//  console.log(num)
+//  console.log(num+9)
+
+// ex2a  parseInt() formats a string into an integer.
+// let x =99991.55
+// let num=parseInt(x)
+// console.log(num)
+
+// // ex2b parseInt(value) method takes string x , decimal no and returns  only the integer
+// let x = '7 days'
+// let num = parseInt(x)
+// console.log(num) 
+// // output 7
+
+
+// // Example 2c
+// let x = 'day 7'
+// let num = parseInt(x)
+// console.log(num)
+// //Output:NaN
+ //ex 2d
+// parseFloat() method parses a string value and returns the number with its decimal value.
+// let x = '10.99'
+// let num = parseFloat(x)
+// console.log(num)                 
+
+//ex 3a .toString() converts a numeric value into a string
+// let x = 10
+// let num = x.toString()
+// console.log(num)        //output '10' or 10
+
+//ex 3b Adding the number `2` as a parameter to .toString() method, returns the binary value of the number
+// let x = 10
+// let num = x.toString(2)
+// console.log(num) //output 1010
+
+//ex 4(a) toExponential()  .toExponential() converts a number into a string and returns it in an exponential format
+// let x = 456.789
+// let num = x.toExponential()
+// console.log(num) // output 4.56789e+2
+
+//ex 4(b) parameter with 2 digits(1 digit with 1 decimal), returns the value with two decimal digits.
+// let x = 456.789
+// let num = x.toExponential(1)
+// console.log(num)   // Output: 4.57e+2
+ 
+//ex 5a .toFixed() method rounds up a number to the nearest highest or lowest fixed-point notation
+// var num = 4.56789;
+// console.log(num.toFixed())        // Output : 5
+
+//ex 5b  .toFixed(digits) method formats the number with 2 number of digits after the decimal point 
+// var num = 4.56789; 
+// console.log(num.toFixed(2))            // Output : 4.57
+
+//ex 6a .toPrecision() returns the numeric value with a specific length
+// var num = 456.789;
+// console.log(num.toPrecision())      // Output : 456.789
+// ex 6b to specific length 
+// var num = 456.789;   
+// console.log(num.toPrecision(2))     // Output : 4.6
+
+
+//https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript
+
+// let mystring = "lower case string";
+// mystring.toUpperCase();
+// console.log(mystring);
+// // 'LOWER CASE STRING'
+// console.log(mystring.length)
+// // 17
+
+
+
+
