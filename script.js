@@ -1,30 +1,26 @@
 
 // ex  1  Number() method converts a string into a number
-// let x = '100';
-// let num = Number(x);
-// console.log(num)
-// console.log(num*10)
 
 //  ex 1b r
 //  let x = true ;
 //  let num = Number (x)
-//  console.log(num)
-//  console.log(num * 9)
+//  console.log(num)            //output 1
+//  console.log(num * 9)        //output 9
 
 
-// //  ex1c Number(value) method is used to convert string x to an integer and perform operations on the number value. Setting x totrue returns 1 and false returns 0.
-//  let x= false;
-//  let num = Number(x)
+// //  ex 1c Number(value) method is used to convert string x to an integer and perform operations on the number value. Setting x to true returns 1 and false returns 0.
+ let x= false;
+ let num = Number(x)
 
-//  console.log(num)
-//  console.log(num+9)
+ console.log(num)   //output = 0
+ console.log(num+9)  //output = 9
 
 // ex2a  parseInt() formats a string into an integer.
 // let x =99991.55
 // let num=parseInt(x)
 // console.log(num)
 
-// // ex2b parseInt(value) method takes string x , decimal no and returns  only the integer
+// // ex2b parseInt(value) method takes string x , decimal number and returns  only the integer
 // let x = '7 days'
 // let num = parseInt(x)
 // console.log(num) 
@@ -43,9 +39,9 @@
 // console.log(num)                 
 
 //ex 3a .toString() converts a numeric value into a string
-// let x = 10
-// let num = x.toString()
-// console.log(num)        //output '10' or 10
+// let x = 10 ;
+// let num = x.toString();
+// console.log(num)     ;   //output '10' or 10
 
 //ex 3b Adding the number `2` as a parameter to .toString() method, returns the binary value of the number
 // let x = 10
@@ -62,7 +58,7 @@
 // let num = x.toExponential(1)
 // console.log(num)   // Output: 4.57e+2
  
-//ex 5a .toFixed() method rounds up a number to the nearest highest or lowest fixed-point notation
+//ex 5a `.toFixed() `method rounds up a number to the nearest highest or lowest fixed-point notation
 // var num = 4.56789;
 // console.log(num.toFixed())        // Output : 5
 
@@ -87,6 +83,10 @@
 // console.log(mystring.length)
 // // 17
 
+const string1 = "A string primitive";
+const string2 = 'Also a string primitive';
+const string3 = `Yet another string primitive`;
+const string4 = new String("A String object");
 
 
 
